@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(132, 120, 120); /* Negro */
+    color: #fff;
+}
+
+header {
+    background-color: #1a1a1c; /* Azul oscuro */
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    margin: 0;
+    border: 0;
+    width: 100;
+}
+
+#logo {
+    max-width: 100px; /* Ajusta el tamaño del logo según tus necesidades */
+    position: absolute;
+    top: 50%;
+    left: 90px; /* Ajusta la posición izquierda según tus necesidades */
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin-left: 40px; /* Espacio adicional para el texto principal */
+}
+
+section {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #333; /* Gris oscuro */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    flex: 1 1 300px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #e74c3c; /* Rojo oscuro */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c0392b; /* Rojo más oscuro al pasar el mouse */
+}
+
+#carrito {
+    width: 100%;
+}
+
+#lista-carrito {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-carrito li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+#total {
+    font-weight: bold;
+    color: #fff;
+}
+/* Resto de estilos ... */
+
+button.compra {
+    background-color: #3498db; /* Azul */
+    color: #fff;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button.compra:hover {
+    background-color: #2980b9; /* Azul más oscuro al pasar el mouse */
+}
+
+/* Resto de estilos ... */
